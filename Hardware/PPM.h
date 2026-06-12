@@ -9,6 +9,9 @@
 // 初始化PPM信号解析
 void PPM_Init(void);
 
+extern volatile uint16_t ppm_pwm_values[10];
+
+
 static uint16_t mapPPMtoPWM(uint16_t ppm_value);
 
 #endif  
